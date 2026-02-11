@@ -46,6 +46,16 @@ When it's done you get a complete protocol file. You can ask Claude to turn it i
 
 It works for any drug or medical device — just describe what you've got and Claude figures out the rest. The output is a draft (you'd still want a biostatistician and regulatory folks to review), but it's a *really* solid starting point. Pretty cool right?
 
+## Convert to PDF
+
+Once your protocol is generated, just tell Claude:
+
+```
+Convert protocol_complete.md to a PDF
+```
+
+Claude will install what it needs and create the PDF for you — no need to leave the conversation.
+
 ---
 ### Here's a summary of the output when i did it
 ---
