@@ -1,0 +1,284 @@
+{
+  "research_date": "2026-02-11",
+  "intervention_name": "SkeetSteph",
+  "intervention_type": "drug",
+
+  "regulatory_pathway": {
+    "recommended_pathway": "NDA (New Drug Application) - 505(b)(1)",
+    "rationale": "SkeetSteph is a novel GLP-1 receptor agonist (new chemical entity/NCE) requiring full NDA submission with complete clinical data package. Not a generic (ANDA) or modified existing product (505(b)(2)).",
+    "regulatory_classification": {
+      "novelty": "New Chemical Entity (NCE)",
+      "product_type": "Small molecule or peptide (GLP-1 receptor agonist)",
+      "rx_status": "Prescription only",
+      "controlled_substance": false
+    },
+    "ind_requirements": {
+      "ind_required": true,
+      "cfr_reference": "21 CFR 312",
+      "submission_strategy": "Standard IND submission with 30-day FDA review period before Phase 1 initiation",
+      "pre_ind_meeting": "Type B Pre-IND meeting strongly recommended to align on clinical development plan, nonclinical requirements, and CMC strategy",
+      "clinical_hold_risk_factors": [
+        "Alopecia safety signal requires proactive monitoring plan",
+        "Standard GLP-1 class concerns (pancreatitis, thyroid C-cell tumors, gallbladder events)",
+        "Ensure adequate nonclinical toxicology package including carcinogenicity studies (2-year rodent)"
+      ]
+    },
+    "ich_guidelines": [
+      "ICH E6(R2) - Good Clinical Practice",
+      "ICH E9(R1) - Statistical Principles including Estimand Framework",
+      "ICH E10 - Choice of Control Group",
+      "ICH E1 - Safety database size (chronic use: ≥1500 patients exposed ≥6 months, ≥500 exposed ≥1 year)",
+      "ICH S7A/S7B - Safety Pharmacology",
+      "ICH S9 - Nonclinical Evaluation"
+    ],
+    "key_fda_guidance": {
+      "title": "Obesity and Overweight: Developing Drugs and Biological Products for Weight Reduction (Draft, January 2025)",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/obesity-and-overweight-developing-drugs-and-biological-products-weight-reduction",
+      "key_requirements": [
+        "Primary endpoint: continuous weight change variable (% change from baseline)",
+        "Responder analyses at ≥5%, ≥10%, ≥15% weight reduction thresholds",
+        "≥3,000 subjects randomized to investigational drug at recommended dose",
+        "≥1,500 subjects on placebo for ≥1 year maintenance treatment",
+        "Population: BMI ≥30 or BMI ≥27 with ≥1 weight-related comorbidity",
+        "Must include representative sampling of Class 3 obesity (BMI ≥40)",
+        "Standard-of-care diet and physical activity applicable to primary care",
+        "At least 1 Phase 3 trial with structured lifestyle intervention",
+        "Maintenance period ≥1 year on maintenance dosing",
+        "Multiple imputation methodology (not LOCF) for missing data",
+        "Estimand framework addressing intercurrent events (treatment discontinuation)",
+        "Diversity plans including comorbidities (CV disease, heart failure, liver disease, CKD)",
+        "Clinical outcome assessments (COAs) as secondary endpoints for labeling claims",
+        "Dedicated trial or powered sub-study for Type 2 diabetes population",
+        "Pediatric investigation plan due ≤60 days post-Phase 2 meeting (ages 6+)"
+      ]
+    }
+  },
+
+  "similar_trials": [
+    {
+      "rank": 1,
+      "nct_id": "NCT03548935",
+      "trial_name": "STEP 1",
+      "drug": "Semaglutide 2.4 mg (Wegovy)",
+      "sponsor": "Novo Nordisk",
+      "phase": "Phase 3",
+      "status": "Completed",
+      "sample_size": 1961,
+      "randomization": "2:1 (drug:placebo)",
+      "design": "Randomized, double-blind, placebo-controlled",
+      "population": "Adults BMI ≥30 or ≥27 with comorbidity, without diabetes",
+      "duration": "68 weeks",
+      "primary_endpoints": ["Percentage change in body weight from baseline", "Weight reduction ≥5%"],
+      "key_results": "14.9% mean weight loss vs 2.4% placebo",
+      "relevance": "Most directly comparable — same drug class, same population, pivotal approval trial"
+    },
+    {
+      "rank": 2,
+      "nct_id": "NCT04184622",
+      "trial_name": "SURMOUNT-1",
+      "drug": "Tirzepatide 5/10/15 mg (Zepbound)",
+      "sponsor": "Eli Lilly",
+      "phase": "Phase 3",
+      "status": "Completed",
+      "sample_size": 2539,
+      "randomization": "1:1:1:1 (5mg:10mg:15mg:placebo)",
+      "design": "Randomized, double-blind, placebo-controlled, multicenter",
+      "population": "Adults BMI ≥30 or ≥27 with ≥1 comorbidity, without diabetes",
+      "duration": "72 weeks (including 20-week dose escalation)",
+      "primary_endpoints": ["Percentage change in body weight from baseline", "Weight reduction ≥5%"],
+      "key_results": "15.0% (5mg), 19.5% (10mg), 20.9% (15mg) mean weight loss vs 3.1% placebo; 85-91% achieved ≥5% loss",
+      "relevance": "Gold standard Phase 3 design for weight management; demonstrates multi-dose approach"
+    },
+    {
+      "rank": 3,
+      "nct_id": "NCT05646706",
+      "trial_name": "STEP UP",
+      "drug": "Semaglutide 7.2 mg",
+      "sponsor": "Novo Nordisk",
+      "phase": "Phase 3b",
+      "status": "Completed",
+      "sample_size": 1407,
+      "randomization": "Multiple arms (7.2mg vs 2.4mg vs placebo)",
+      "design": "Randomized, double-blind, parallel-group, placebo-controlled",
+      "population": "Adults BMI ≥30, without diabetes",
+      "duration": "72 weeks",
+      "primary_endpoints": ["Superiority of semaglutide 7.2mg vs placebo in weight loss"],
+      "key_results": "Higher dose semaglutide showed superior weight loss vs 2.4mg and placebo",
+      "relevance": "Most recent large GLP-1 trial; demonstrates dose-response for higher GLP-1 doses"
+    },
+    {
+      "rank": 4,
+      "nct_id": "NCT05869903",
+      "trial_name": "ATTAIN-1",
+      "drug": "Orforglipron 6/12/36 mg (oral small molecule GLP-1 RA)",
+      "sponsor": "Eli Lilly",
+      "phase": "Phase 3",
+      "status": "Completed",
+      "sample_size": 3127,
+      "randomization": "Multiple arms (6mg, 12mg, 36mg, placebo)",
+      "design": "Multinational, randomized, double-blind, placebo-controlled",
+      "population": "Adults with obesity without diabetes",
+      "duration": "72 weeks",
+      "primary_endpoints": ["Mean body weight reduction"],
+      "key_results": "7.5% to 11.2% weight loss vs 2.1% placebo across dose groups",
+      "relevance": "Latest Phase 3 GLP-1 RA; large sample size aligned with 2025 FDA guidance"
+    },
+    {
+      "rank": 5,
+      "nct_id": "NCT05564117",
+      "trial_name": "OASIS 4",
+      "drug": "Oral semaglutide 25 mg",
+      "sponsor": "Novo Nordisk",
+      "phase": "Phase 3",
+      "status": "Completed",
+      "sample_size": 307,
+      "randomization": "Drug vs placebo",
+      "design": "Randomized, double-blind, placebo-controlled",
+      "population": "Adults with obesity or overweight with ≥1 comorbidity",
+      "duration": "64 weeks",
+      "primary_endpoints": ["Percentage change in body weight"],
+      "key_results": "16.6% mean weight loss",
+      "relevance": "Supports oral formulation approach; relatively smaller trial supported approval"
+    },
+    {
+      "rank": 6,
+      "nct_id": "NCT05813795",
+      "trial_name": "Ecnoglutide Phase 3",
+      "drug": "Ecnoglutide (biased GLP-1 RA)",
+      "sponsor": "Various",
+      "phase": "Phase 3",
+      "status": "Completed",
+      "sample_size": null,
+      "randomization": "Drug vs placebo",
+      "design": "Randomized, double-blind, placebo-controlled, multicenter",
+      "population": "Adults 18-75 years, overweight or obesity without diabetes",
+      "duration": "Not specified",
+      "primary_endpoints": ["Weight reduction efficacy"],
+      "key_results": "Demonstrated efficacy in Chinese population",
+      "relevance": "Novel biased GLP-1 RA; shows expanding competitive landscape"
+    }
+  ],
+
+  "alopecia_safety_signal": {
+    "summary": "Alopecia is an emerging adverse effect associated with GLP-1 receptor agonists for weight loss. Over 1,000 spontaneous cases reported in FDA FAERS database.",
+    "reporting_odds_ratios": {
+      "semaglutide": "ROR 2.46 (95% CI: 2.14-2.83)",
+      "tirzepatide": "ROR 1.73 (95% CI: 1.42-2.09)"
+    },
+    "types_reported": [
+      "Telogen effluvium (most common — diffuse hair shedding from metabolic stress of rapid weight loss)",
+      "Androgenic alopecia",
+      "Alopecia (unspecified)",
+      "Central centrifugal cicatricial alopecia",
+      "Folliculitis decalvans"
+    ],
+    "proposed_mechanisms": [
+      "Rapid weight loss inducing telogen effluvium via metabolic stress",
+      "Nutritional deficiencies from caloric restriction disrupting hair growth cycle",
+      "Direct GLP-1 receptor effects on hair follicle cells (under investigation)"
+    ],
+    "protocol_implications": [
+      "Include standardized alopecia grading scale (e.g., CTCAE v5.0 or Severity of Alopecia Tool - SALT)",
+      "Require baseline and serial hair assessments at key timepoints",
+      "Include alopecia as a prespecified adverse event of special interest (AESI)",
+      "Collect hair density/photographic documentation at scheduled visits",
+      "Monitor nutritional biomarkers (ferritin, zinc, biotin, vitamin D) at baseline and during treatment",
+      "Include patient-reported outcomes for hair loss impact (e.g., Hairdex questionnaire)",
+      "Define stopping rules if severe/irreversible alopecia observed"
+    ]
+  },
+
+  "study_design_recommendations": {
+    "suggested_design": "Randomized, double-blind, placebo-controlled, parallel-group, multicenter Phase 3 trial",
+    "phase": "Phase 3",
+    "rationale": "Consistent with all approved GLP-1 RA weight management programs (STEP, SURMOUNT, ATTAIN, OASIS) and 2025 FDA guidance requirements",
+    "comparator": "Placebo (matching subcutaneous injection) + lifestyle intervention (reduced-calorie diet + increased physical activity)",
+    "randomization": "2:1 (SkeetSteph : placebo) — maximizes drug exposure data per FDA guidance requiring ≥3000 on drug",
+    "blinding": "Double-blind with matching placebo injections",
+    "stratification_factors": [
+      "BMI category (30-34.9 vs 35-39.9 vs ≥40)",
+      "Sex",
+      "Race/ethnicity",
+      "Glycemic status (normoglycemia vs prediabetes)"
+    ],
+    "dose_escalation": "20-week dose escalation period (consistent with SURMOUNT-1 and STEP programs) to improve GI tolerability",
+    "treatment_duration": "72 weeks total (20-week escalation + 52-week maintenance) consistent with current FDA guidance requiring ≥1 year maintenance",
+    "primary_endpoints": [
+      "Percent change in body weight from baseline to Week 72",
+      "Proportion of participants achieving ≥5% body weight reduction at Week 72"
+    ],
+    "key_secondary_endpoints": [
+      "Proportion achieving ≥10% weight reduction",
+      "Proportion achieving ≥15% weight reduction",
+      "Change in waist circumference",
+      "Change in systolic blood pressure",
+      "Change in fasting glucose and HbA1c",
+      "Change in lipid panel (LDL-C, HDL-C, triglycerides)",
+      "Incidence and severity of alopecia (AESI)",
+      "Patient-reported outcomes (IWQOL-Lite, SF-36, Hairdex)"
+    ],
+    "sample_size_considerations": {
+      "target_enrollment": "4500 (3000 drug : 1500 placebo per 2:1 randomization)",
+      "rationale": "Meets FDA 2025 guidance: ≥3000 on drug, ≥1500 on placebo for ≥1 year. Comparable to ATTAIN-1 (N=3127) and larger than STEP 1 (N=1961) and SURMOUNT-1 (N=2539).",
+      "powering": "99%+ power for primary endpoints based on expected ~12-15% weight loss vs ~2-3% placebo (effect sizes from STEP and SURMOUNT programs)"
+    },
+    "population": {
+      "age_range": "30-39 years (per sponsor request; note FDA may request broader age range for generalizability)",
+      "bmi_criteria": "BMI ≥30 kg/m²",
+      "key_inclusion": [
+        "Adults aged 30-39 years",
+        "BMI ≥30 kg/m²",
+        "Without type 2 diabetes mellitus",
+        "Stable body weight (≤5% change in past 3 months)",
+        "At least 1 failed weight management effort"
+      ],
+      "key_exclusion": [
+        "Type 1 or Type 2 diabetes mellitus",
+        "Prior bariatric surgery",
+        "History of pancreatitis",
+        "Personal or family history of medullary thyroid carcinoma or MEN2",
+        "Active or history of alopecia areata or other autoimmune hair loss",
+        "Current use of medications known to cause weight gain or hair loss",
+        "Pregnancy, breastfeeding, or planning pregnancy",
+        "Severe renal impairment (eGFR <30)",
+        "History of suicidal ideation or behavior"
+      ]
+    }
+  },
+
+  "approved_glp1_landscape": [
+    {
+      "drug": "Semaglutide (Wegovy)",
+      "manufacturer": "Novo Nordisk",
+      "route": "Subcutaneous injection (2.4mg weekly) and Oral (25mg daily)",
+      "approval_year": "2021 (injectable), 2025 (oral)",
+      "nda_number": "NDA 215256 (injectable)"
+    },
+    {
+      "drug": "Liraglutide (Saxenda)",
+      "manufacturer": "Novo Nordisk",
+      "route": "Subcutaneous injection (3.0mg daily)",
+      "approval_year": "2014",
+      "nda_number": "NDA 206321"
+    },
+    {
+      "drug": "Tirzepatide (Zepbound)",
+      "manufacturer": "Eli Lilly",
+      "route": "Subcutaneous injection (weekly)",
+      "approval_year": "2023",
+      "nda_number": "NDA 217806"
+    }
+  ],
+
+  "key_insights": [
+    "All recent GLP-1 weight management trials use randomized, double-blind, placebo-controlled design with 68-72 week duration",
+    "Co-primary endpoints of % weight change + ≥5% responder analysis are standard; 2025 FDA guidance emphasizes continuous variable as primary",
+    "Sample sizes range from 307 (OASIS 4) to 3127 (ATTAIN-1); FDA 2025 guidance requires ≥3000 on drug + ≥1500 on placebo",
+    "Dose escalation periods of 16-20 weeks are standard to manage GI tolerability",
+    "Alopecia is a well-documented emerging safety signal with GLP-1 RAs; SkeetSteph protocol should include proactive monitoring as a differentiator",
+    "2025 FDA guidance introduces estimand framework and multiple imputation — must be reflected in statistical analysis plan",
+    "Lifestyle intervention (diet + exercise counseling) is mandatory in both arms per FDA guidance",
+    "FDA may request broader age range than 30-39 for generalizability; consider discussing with FDA in Pre-IND meeting",
+    "Pediatric investigation plan required within 60 days of End-of-Phase 2 meeting"
+  ]
+}

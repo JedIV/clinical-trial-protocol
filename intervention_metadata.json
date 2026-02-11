@@ -1,0 +1,24 @@
+{
+  "intervention_id": "skeetsteph",
+  "intervention_type": "drug",
+  "intervention_name": "SkeetSteph",
+  "intervention_description": "SkeetSteph is a novel GLP-1 receptor agonist administered as a once-weekly subcutaneous injection for chronic weight management. It mimics the incretin hormone GLP-1, promoting satiety, reducing appetite, and slowing gastric emptying to facilitate sustained weight loss.",
+  "indication": "Chronic weight management in adults with obesity (BMI ≥ 30 kg/m²) without type 2 diabetes, as an adjunct to a reduced-calorie diet and increased physical activity",
+  "target_population": "Adults aged 30-39 years with a BMI ≥ 30 kg/m² without type 2 diabetes mellitus, who have not achieved adequate weight loss with diet and exercise alone",
+  "special_considerations": "Alopecia (hair loss) has been identified as a notable safety signal in preclinical and/or early clinical observations. This requires dedicated monitoring, grading scales, and reporting throughout the trial. Standard GLP-1 class safety concerns also apply, including gastrointestinal events (nausea, vomiting, diarrhea), pancreatitis risk, gallbladder events, and potential thyroid C-cell tumor risk (boxed warning consideration based on rodent studies).",
+  "initial_context": "",
+  "user_provided_template": {
+    "provided": false
+  },
+  "discovery_clarifications": {
+    "phase": "Phase 3",
+    "setting": "Outpatient / ambulatory clinical sites",
+    "mechanism": "GLP-1 receptor agonist",
+    "comparator": "Placebo (matching subcutaneous injection) plus lifestyle intervention (reduced-calorie diet and increased physical activity)",
+    "additional_details": "Pivotal efficacy trial intended to support NDA submission for chronic weight management indication"
+  },
+  "created_date": "2026-02-11",
+  "protocol_status": "complete",
+  "completed_steps": [0, 1, 2, 3, 4, 5],
+  "final_protocol_file": "waypoints/protocol_complete.md"
+}

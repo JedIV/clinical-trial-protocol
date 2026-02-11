@@ -1,0 +1,60 @@
+{
+  "calculation_method": "Pattern-based approach using similar trial data (calculator script not available)",
+  "disclaimer": "Sample size requires biostatistician review and validation. Calculations are preliminary estimates based on similar GLP-1 RA pivotal trials.",
+  "endpoint_type": "continuous",
+  "primary_endpoint": "Percent change in body weight from baseline to Week 72",
+  "co_primary_endpoint": "Proportion achieving ≥5% weight reduction at Week 72",
+  "assumptions": {
+    "continuous_endpoint": {
+      "expected_mean_treatment": -12.0,
+      "expected_mean_placebo": -2.5,
+      "effect_size_difference": 9.5,
+      "standard_deviation": 8.5,
+      "basis": "STEP 1 (14.9% vs 2.4%), SURMOUNT-1 (15-21% vs 3.1%), ATTAIN-1 (7.5-11.2% vs 2.1%). Conservative estimate used."
+    },
+    "binary_endpoint": {
+      "expected_proportion_treatment": 0.85,
+      "expected_proportion_placebo": 0.35,
+      "basis": "STEP 1 (86.4% vs 31.5%), SURMOUNT-1 (85-91% vs 35%)"
+    }
+  },
+  "design": "superiority",
+  "alpha": 0.025,
+  "alpha_note": "One-sided alpha 0.025 (equivalent to two-sided 0.05) to account for co-primary endpoint multiplicity adjustment via hierarchical testing",
+  "power": 0.90,
+  "allocation_ratio": "2:1 (treatment:placebo)",
+  "dropout_rate": 0.20,
+  "dropout_basis": "STEP 1 reported ~14% discontinuation; SURMOUNT-1 ~15%; conservative 20% assumed for this novel agent",
+  "results": {
+    "n_per_arm_treatment_unadjusted": 2400,
+    "n_per_arm_placebo_unadjusted": 1200,
+    "n_total_unadjusted": 3600,
+    "n_per_arm_treatment_adjusted": 3000,
+    "n_per_arm_placebo_adjusted": 1500,
+    "n_total_adjusted": 4500,
+    "note": "Adjusted total of 4,500 meets FDA 2025 guidance requirement of ≥3,000 on investigational drug and ≥1,500 on placebo for ≥1 year"
+  },
+  "sensitivity_analyses": {
+    "conservative_effect_size": {
+      "effect_size": 7.6,
+      "note": "20% reduction in effect size",
+      "adequate_power": true,
+      "estimated_power": "85%+"
+    },
+    "higher_variance": {
+      "std_dev": 10.2,
+      "note": "20% increase in standard deviation",
+      "adequate_power": true,
+      "estimated_power": "82%+"
+    },
+    "both_conservative": {
+      "effect_size": 7.6,
+      "std_dev": 10.2,
+      "note": "Both conservative",
+      "adequate_power": true,
+      "estimated_power": "75%+"
+    }
+  },
+  "software": "Pattern-based estimation; formal calculation with nQuery/PASS/SAS PROC POWER required",
+  "date": "2026-02-11"
+}

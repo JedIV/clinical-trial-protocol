@@ -1,0 +1,45 @@
+{
+  "intervention_id": "skeetsteph",
+  "intervention_name": "SkeetSteph",
+  "protocol_version": "1.0 Draft",
+  "protocol_date": "2026-02-11",
+  "protocol_number": "PROTO-SKST-OBE-001",
+  "study_design": "Randomized, double-blind, placebo-controlled, parallel-group, multicenter Phase 3 trial",
+  "enrollment_target": 4500,
+  "enrollment_breakdown": {
+    "skeetsteph": 3000,
+    "placebo": 1500
+  },
+  "randomization_ratio": "2:1",
+  "primary_endpoint": "Percent change in body weight from baseline to Week 72",
+  "co_primary_endpoint": "Proportion of participants achieving ≥5% body weight reduction at Week 72",
+  "duration_weeks": 80,
+  "treatment_duration_weeks": 72,
+  "dose_escalation_weeks": 20,
+  "maintenance_weeks": 52,
+  "follow_up_weeks": 8,
+  "regulatory_pathway": "IND (21 CFR 312) → NDA 505(b)(1)",
+  "protocol_status": "complete",
+  "final_protocol_file": "protocol_complete.md",
+  "waypoint_files": {
+    "foundation": "02_protocol_foundation.md",
+    "intervention": "03_protocol_intervention.md",
+    "operations": "04_protocol_operations.md",
+    "complete": "protocol_complete.md"
+  },
+  "step_2_status": "completed",
+  "step_3_status": "completed",
+  "step_4_status": "completed",
+  "step_5_status": "completed",
+  "sections_completed": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  "sections_pending": [],
+  "concatenation_date": "2026-02-11",
+  "notes": [
+    "DRAFT for planning purposes",
+    "Complete protocol (Sections 1-11) concatenated in protocol_complete.md",
+    "Requires biostatistician review",
+    "Requires clinical expert review",
+    "Requires IRB approval",
+    "Requires FDA feedback via Pre-IND meeting"
+  ]
+}
