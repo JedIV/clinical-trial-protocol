@@ -1,0 +1,5 @@
+{
+  "enabledPlugins": {
+    "clinical-trial-protocol@life-sciences": true
+  }
+}
